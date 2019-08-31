@@ -4,4 +4,7 @@ defaults:
     values:
       layout: "default"
 
-theme: jekyll-theme-minimal
+plugins:
+  - jekyll-include-cache
+
+remote-theme: "mmistakes/minimal-mistakes@4.16.6"
